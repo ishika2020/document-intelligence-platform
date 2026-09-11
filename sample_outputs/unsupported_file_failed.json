@@ -1,0 +1,28 @@
+{
+  "document_name": "not_a_document.txt",
+  "document_type": "invoice",
+  "processing_status": "FAILED",
+  "overall_confidence": null,
+  "file_validation": {
+    "file_type": "text/plain",
+    "is_supported": false,
+    "is_readable": false,
+    "page_count": null,
+    "status": "FAIL",
+    "reason": "Only PDF, JPG and PNG documents are supported."
+  },
+  "extracted_data": {},
+  "validation": {
+    "checks": [],
+    "overall_status": "NOT_APPLICABLE",
+    "issues": [
+      "Only PDF, JPG and PNG documents are supported."
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": false,
+    "processed_at": "2026-09-11T19:20:59.387843+00:00",
+    "processing_time_ms": 0,
+    "extraction_method": "n/a"
+  }
+}

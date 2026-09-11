@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Intelligence Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Document Intelligence Platform</h1>
+      <div class="subtitle">Upload, extract, validate &amp; review financial documents</div>
+    </div>
+    <a href="/docs" target="_blank" rel="noopener">API Docs (Swagger)</a>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Upload a Document</h2>
+      <form id="uploadForm">
+        <div class="upload-grid">
+          <div>
+            <label for="documentType">Document Type</label>
+            <select id="documentType" name="document_type" required>
+              <option value="invoice">Invoice</option>
+              <option value="balance_sheet">Balance Sheet</option>
+              <option value="profit_and_loss">Profit &amp; Loss</option>
+              <option value="cash_flow_statement">Cash Flow Statement</option>
+            </select>
+          </div>
+          <div>
+            <label for="fileInput">File (PDF / JPG / PNG, up to 3 pages)</label>
+            <input type="file" id="fileInput" name="file" accept=".pdf,.jpg,.jpeg,.png" required>
+          </div>
+          <div>
+            <button type="submit" id="submitBtn">Process Document</button>
+          </div>
+        </div>
+        <div id="uploadStatus"></div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Processed Documents</h2>
+      <div id="tableWrap">
+        <div class="empty-state">Loading&hellip;</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/js/app.js"></script>
+  <script>
+    DocIntel.initDashboard();
+  </script>
+</body>
+</html>

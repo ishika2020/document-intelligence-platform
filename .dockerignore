@@ -1,0 +1,15 @@
+**/__pycache__/
+**/*.pyc
+.venv/
+venv/
+backend/.env
+backend/data/
+backend/tests/_test_data/
+backend/.pytest_cache/
+*.db
+*.sqlite3
+dataset_raw/
+New Dataset*.zip
+sample_outputs/
+docs/
+.git/

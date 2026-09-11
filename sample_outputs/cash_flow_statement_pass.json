@@ -1,0 +1,401 @@
+{
+  "document_name": "cash_flow_statement_2020.pdf",
+  "document_type": "cash_flow_statement",
+  "processing_status": "PASS",
+  "overall_confidence": 0.92,
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 2,
+    "status": "PASS",
+    "reason": null
+  },
+  "extracted_data": {
+    "statement_title": "Consolidated Cash Flow Statement",
+    "currency": "INR",
+    "currency_unit": null,
+    "current_period_end": "2020-03-31",
+    "comparative_period_end": "2019-03-31",
+    "operating_cash_flow": {
+      "value": -168690920.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Net cash flow used in operating activities (168,690,920) (628,715,447)",
+        "page_number": 1
+      },
+      "confidence": 0.95
+    },
+    "investing_cash_flow": {
+      "value": -16169244.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Net cash flow used in investing activities (16,169,244) (15,984,087)",
+        "page_number": 1
+      },
+      "confidence": 0.95
+    },
+    "financing_cash_flow": {
+      "value": 243944969.0,
+      "page_number": 2,
+      "evidence": {
+        "source_text": "Net cash flow from financing activities 243,944,969 231,306,932",
+        "page_number": 2
+      },
+      "confidence": 0.87
+    },
+    "fx_translation_adjustment": {
+      "value": 2139891.0,
+      "page_number": 2,
+      "evidence": {
+        "source_text": "Effect of exchange fluctuation on translation reserve 2,139,891 953,463",
+        "page_number": 2
+      },
+      "confidence": 0.9
+    },
+    "net_change_in_cash": {
+      "value": 61224696.0,
+      "page_number": 2,
+      "evidence": {
+        "source_text": "Net increase / (decrease) in cash and cash equivalents 61,224,696 (412,439,139)",
+        "page_number": 2
+      },
+      "confidence": 0.96
+    },
+    "opening_cash": {
+      "value": 818176423.0,
+      "page_number": 2,
+      "evidence": {
+        "source_text": "Cash and cash equivalents as at April 1st 818,176,423 1,230,615,562",
+        "page_number": 2
+      },
+      "confidence": 0.92
+    },
+    "cash_acquired_on_amalgamation": null,
+    "closing_cash": {
+      "value": 879401119.0,
+      "page_number": 2,
+      "evidence": {
+        "source_text": "Cash and cash equivalents as at March 31st 879,401,119 818,176,423",
+        "page_number": 2
+      },
+      "confidence": 0.92
+    },
+    "line_items": [
+      {
+        "label": "For the year ended March",
+        "schedule": null,
+        "current_period_value": 31.0,
+        "comparative_period_value": 2020.0,
+        "page_number": 1,
+        "source_text": "For the year ended March 31, 2020"
+      },
+      {
+        "label": "Consolidated profit before income tax",
+        "schedule": null,
+        "current_period_value": 381525366.0,
+        "comparative_period_value": 342049793.0,
+        "page_number": 1,
+        "source_text": "Consolidated profit before income tax 381,525,366 342,049,793"
+      },
+      {
+        "label": "Depreciation on fixed assets",
+        "schedule": null,
+        "current_period_value": 12767714.0,
+        "comparative_period_value": 12206675.0,
+        "page_number": 1,
+        "source_text": "Depreciation on fixed assets 12,767,714 12,206,675"
+      },
+      {
+        "label": "(Profit) / loss on revaluation of investments",
+        "schedule": null,
+        "current_period_value": 7021095.0,
+        "comparative_period_value": 152437.0,
+        "page_number": 1,
+        "source_text": "(Profit) / loss on revaluation of investments 7,021,095 152,437"
+      },
+      {
+        "label": "Amortisation of premium on held to maturity investments",
+        "schedule": null,
+        "current_period_value": 5014137.0,
+        "comparative_period_value": 4534626.0,
+        "page_number": 1,
+        "source_text": "Amortisation of premium on held to maturity investments 5,014,137 4,534,626"
+      },
+      {
+        "label": "(Profit) / loss on sale of fixed assets",
+        "schedule": null,
+        "current_period_value": 81865.0,
+        "comparative_period_value": -62054.0,
+        "page_number": 1,
+        "source_text": "(Profit) / loss on sale of fixed assets 81,865 (62,054)"
+      },
+      {
+        "label": "Provision / charge for non performing assets",
+        "schedule": null,
+        "current_period_value": 110657129.0,
+        "comparative_period_value": 74233774.0,
+        "page_number": 1,
+        "source_text": "Provision / charge for non performing assets 110,657,129 74,233,774"
+      },
+      {
+        "label": "Provision for standard assets and Contingencies",
+        "schedule": null,
+        "current_period_value": 30574317.0,
+        "comparative_period_value": 11852505.0,
+        "page_number": 1,
+        "source_text": "Provision for standard assets and Contingencies 30,574,317 11,852,505"
+      },
+      {
+        "label": "(Increase) / decrease in investments",
+        "schedule": null,
+        "current_period_value": -1010700996.0,
+        "comparative_period_value": -514583611.0,
+        "page_number": 1,
+        "source_text": "(Increase) / decrease in investments (1,010,700,996) (514,583,611)"
+      },
+      {
+        "label": "(Inctease) / decrease in advances",
+        "schedule": null,
+        "current_period_value": -1855003617.0,
+        "comparative_period_value": -1766074976.0,
+        "page_number": 1,
+        "source_text": "(Inctease) / decrease in advances (1,855,003,617) (1,766,074,976)"
+      },
+      {
+        "label": "Increase / (decrease) in deposits",
+        "schedule": null,
+        "current_period_value": 2237044557.0,
+        "comparative_period_value": 1341275360.0,
+        "page_number": 1,
+        "source_text": "Increase / (decrease) in deposits 2,237,044,557 1,341,275,360"
+      },
+      {
+        "label": "(Increase) / decrease in other assets",
+        "schedule": null,
+        "current_period_value": -72497457.0,
+        "comparative_period_value": -97167983.0,
+        "page_number": 1,
+        "source_text": "(Increase) / decrease in other assets (72,497,457) (97,167,983)"
+      },
+      {
+        "label": "Increase / (decrease) in other liabilities and provisions",
+        "schedule": null,
+        "current_period_value": 93598719.0,
+        "comparative_period_value": 87851107.0,
+        "page_number": 1,
+        "source_text": "Increase / (decrease) in other liabilities and provisions 93,598,719 87,851,107"
+      },
+      {
+        "label": "Direct taxes paid (net of refunds)",
+        "schedule": null,
+        "current_period_value": -108773749.0,
+        "comparative_period_value": -124983100.0,
+        "page_number": 1,
+        "source_text": "Direct taxes paid (net of refunds) (108,773,749) (124,983,100)"
+      },
+      {
+        "label": "Net cash flow used in operating activities",
+        "schedule": null,
+        "current_period_value": -168690920.0,
+        "comparative_period_value": -628715447.0,
+        "page_number": 1,
+        "source_text": "Net cash flow used in operating activities (168,690,920) (628,715,447)"
+      },
+      {
+        "label": "Purchase of fixed assets",
+        "schedule": null,
+        "current_period_value": -16358706.0,
+        "comparative_period_value": -16206124.0,
+        "page_number": 1,
+        "source_text": "Purchase of fixed assets (16,358,706) (16,206,124)"
+      },
+      {
+        "label": "Proceeds from sale of fixed assets",
+        "schedule": null,
+        "current_period_value": 189462.0,
+        "comparative_period_value": 222037.0,
+        "page_number": 1,
+        "source_text": "Proceeds from sale of fixed assets 189,462 222,037"
+      },
+      {
+        "label": "Net cash flow used in investing activities",
+        "schedule": null,
+        "current_period_value": -16169244.0,
+        "comparative_period_value": -15984087.0,
+        "page_number": 1,
+        "source_text": "Net cash flow used in investing activities (16,169,244) (15,984,087)"
+      },
+      {
+        "label": "Increase in minority interest",
+        "schedule": null,
+        "current_period_value": 748468.0,
+        "comparative_period_value": 1454623.0,
+        "page_number": 2,
+        "source_text": "Increase in minority interest 748,468 1,454,623"
+      },
+      {
+        "label": "Proceeds from issue of share capital, net of issue expenses",
+        "schedule": null,
+        "current_period_value": 18486821.0,
+        "comparative_period_value": 257904302.0,
+        "page_number": 2,
+        "source_text": "Proceeds from issue of share capital, net of issue expenses 18,486,821 257,904,302"
+      },
+      {
+        "label": "Proceeds from issue of Tier and Tier capital bonds.",
+        "schedule": null,
+        "current_period_value": 7435000.0,
+        "comparative_period_value": 9000000.0,
+        "page_number": 2,
+        "source_text": "Proceeds from issue of Tier and Tier capital bonds. 7,435,000 9,000,000"
+      },
+      {
+        "label": "Redemption of Tier I capital bonds",
+        "schedule": null,
+        "current_period_value": -28750000.0,
+        "comparative_period_value": null,
+        "page_number": 2,
+        "source_text": "Redemption of Tier I capital bonds (28,750,000)"
+      },
+      {
+        "label": "Increase / (decrease) in other borrowings",
+        "schedule": null,
+        "current_period_value": 283580441.0,
+        "comparative_period_value": 32656942.0,
+        "page_number": 2,
+        "source_text": "Increase / (decrease) in other borrowings 283,580,441 32,656,942"
+      },
+      {
+        "label": "Dividend paid during the year (including tax on dividend)",
+        "schedule": null,
+        "current_period_value": -66305761.0,
+        "comparative_period_value": -40958935.0,
+        "page_number": 2,
+        "source_text": "Dividend paid during the year (including tax on dividend) (66,305,761) (40,958,935)"
+      },
+      {
+        "label": "Net cash flow from financing activities",
+        "schedule": null,
+        "current_period_value": 243944969.0,
+        "comparative_period_value": 231306932.0,
+        "page_number": 2,
+        "source_text": "Net cash flow from financing activities 243,944,969 231,306,932"
+      },
+      {
+        "label": "Effect of exchange fluctuation on translation reserve",
+        "schedule": null,
+        "current_period_value": 2139891.0,
+        "comparative_period_value": 953463.0,
+        "page_number": 2,
+        "source_text": "Effect of exchange fluctuation on translation reserve 2,139,891 953,463"
+      },
+      {
+        "label": "Net increase / (decrease) in cash and cash equivalents",
+        "schedule": null,
+        "current_period_value": 61224696.0,
+        "comparative_period_value": -412439139.0,
+        "page_number": 2,
+        "source_text": "Net increase / (decrease) in cash and cash equivalents 61,224,696 (412,439,139)"
+      },
+      {
+        "label": "Cash and cash equivalents as at April 1st",
+        "schedule": null,
+        "current_period_value": 818176423.0,
+        "comparative_period_value": 1230615562.0,
+        "page_number": 2,
+        "source_text": "Cash and cash equivalents as at April 1st 818,176,423 1,230,615,562"
+      },
+      {
+        "label": "Cash and cash equivalents as at March 31st",
+        "schedule": null,
+        "current_period_value": 879401119.0,
+        "comparative_period_value": 818176423.0,
+        "page_number": 2,
+        "source_text": "Cash and cash equivalents as at March 31st 879,401,119 818,176,423"
+      },
+      {
+        "label": "Membership Number",
+        "schedule": null,
+        "current_period_value": 117812.0,
+        "comparative_period_value": null,
+        "page_number": 2,
+        "source_text": "Membership Number: 117812"
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "net_change_in_cash_check",
+        "formula": "Operating + Investing + Financing Cash Flow + FX/Translation Adjustment \u2248 Net Increase in Cash",
+        "operands": {
+          "operating_cash_flow": -168690920.0,
+          "investing_cash_flow": -16169244.0,
+          "financing_cash_flow": 243944969.0,
+          "fx_translation_adjustment": 2139891.0
+        },
+        "calculated_value": 61224696.0,
+        "reported_value": 61224696.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2020",
+        "message": null
+      },
+      {
+        "name": "closing_cash_check",
+        "formula": "Opening Cash + Net Increase in Cash + Cash Acquired on Amalgamation/Other Adjustments \u2248 Closing Cash",
+        "operands": {
+          "opening_cash": 818176423.0,
+          "net_change_in_cash": 61224696.0,
+          "cash_acquired_on_amalgamation": 0.0
+        },
+        "calculated_value": 879401119.0,
+        "reported_value": 879401119.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2020",
+        "message": null
+      },
+      {
+        "name": "net_change_in_cash_check",
+        "formula": "Operating + Investing + Financing Cash Flow + FX/Translation Adjustment \u2248 Net Increase in Cash",
+        "operands": {
+          "operating_cash_flow": -628715447.0,
+          "investing_cash_flow": -15984087.0,
+          "financing_cash_flow": 231306932.0,
+          "fx_translation_adjustment": 953463.0
+        },
+        "calculated_value": -412439139.0,
+        "reported_value": -412439139.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "31-Mar-19",
+        "message": null
+      },
+      {
+        "name": "closing_cash_check",
+        "formula": "Opening Cash + Net Increase in Cash + Cash Acquired on Amalgamation/Other Adjustments \u2248 Closing Cash",
+        "operands": {
+          "opening_cash": 1230615562.0,
+          "net_change_in_cash": -412439139.0,
+          "cash_acquired_on_amalgamation": 0.0
+        },
+        "calculated_value": 818176423.0,
+        "reported_value": 818176423.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "31-Mar-19",
+        "message": null
+      }
+    ],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T19:20:57.610977+00:00",
+    "processing_time_ms": 1983,
+    "extraction_method": "positional label/value table parser over OCR text"
+  }
+}

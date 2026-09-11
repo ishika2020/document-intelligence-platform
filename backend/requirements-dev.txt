@@ -1,0 +1,8 @@
+-r requirements.txt
+pytest==8.3.4
+httpx==0.28.1
+
+# Only needed to regenerate docs/architecture.png and docs/solution_presentation.pdf
+# via scripts/generate_architecture_diagram.py / generate_presentation.py
+matplotlib==3.9.4
+reportlab==4.2.5

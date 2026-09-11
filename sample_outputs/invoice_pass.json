@@ -1,0 +1,304 @@
+{
+  "document_name": "invoice_template_sample.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "overall_confidence": 0.89,
+  "file_validation": {
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "reason": null
+  },
+  "extracted_data": {
+    "invoice_number": {
+      "value": "94404257",
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Invoice no: 94404257",
+        "page_number": 1
+      },
+      "confidence": 0.95
+    },
+    "invoice_date": {
+      "value": "2013-03-07",
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Date of issue: 07/03/2013",
+        "page_number": 1
+      },
+      "confidence": 0.96
+    },
+    "vendor_name": {
+      "value": "Cruz PLC",
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Cruz PLC Sandoval-Phillips",
+        "page_number": 1
+      },
+      "confidence": 0.95
+    },
+    "customer_name": {
+      "value": "Sandoval-Phillips",
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Cruz PLC Sandoval-Phillips",
+        "page_number": 1
+      },
+      "confidence": 0.91
+    },
+    "currency": {
+      "value": "USD",
+      "page_number": null
+    },
+    "subtotal": {
+      "value": 126.27,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total $ 126,27 $ 12,63 $ 138,90",
+        "page_number": 1
+      },
+      "confidence": 0.94
+    },
+    "tax_amount": {
+      "value": 12.63,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total $ 126,27 $ 12,63 $ 138,90",
+        "page_number": 1
+      },
+      "confidence": 0.94
+    },
+    "discount": {
+      "value": 0.0,
+      "confidence": 0.5,
+      "page_number": null,
+      "evidence": {
+        "source_text": "No explicit discount line found; assumed 0.00.",
+        "page_number": null
+      }
+    },
+    "total_amount": {
+      "value": 138.9,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total $ 126,27 $ 12,63 $ 138,90",
+        "page_number": 1
+      },
+      "confidence": 0.94
+    },
+    "cash_paid": null,
+    "change": null,
+    "line_items": [
+      {
+        "description": "ils BOO28NAO6EC Shoeless Joe",
+        "quantity": 5.0,
+        "unit_price": 3.49,
+        "amount": 17.45,
+        "additional_values": [
+          10.0,
+          19.2
+        ]
+      },
+      {
+        "description": "The Fifty Greatest Conspiracies",
+        "quantity": 3.0,
+        "unit_price": 4.49,
+        "amount": 13.47,
+        "additional_values": [
+          10.0,
+          14.82
+        ]
+      },
+      {
+        "description": "By Story of a Soul: The",
+        "quantity": 5.0,
+        "unit_price": 9.35,
+        "amount": 46.75,
+        "additional_values": [
+          10.0,
+          51.42
+        ]
+      },
+      {
+        "description": "The Complete Idiots Guide to",
+        "quantity": 4.0,
+        "unit_price": 4.49,
+        "amount": 17.96,
+        "additional_values": [
+          10.0,
+          19.76
+        ]
+      },
+      {
+        "description": "Rebecca to the Rescue",
+        "quantity": 2.0,
+        "unit_price": 4.89,
+        "amount": 9.78,
+        "additional_values": [
+          10.0,
+          10.76
+        ]
+      },
+      {
+        "description": "Tales from the Buffalo Bills",
+        "quantity": 1.0,
+        "unit_price": 5.5,
+        "amount": 5.5,
+        "additional_values": [
+          10.0,
+          6.05
+        ]
+      },
+      {
+        "description": "Us Vietnam, The Decisive Battles",
+        "quantity": 2.0,
+        "unit_price": 7.68,
+        "amount": 15.36,
+        "additional_values": [
+          10.0,
+          16.9
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "line_item_1_total_check",
+        "formula": "quantity * unit_price",
+        "operands": {
+          "quantity": 5.0,
+          "unit_price": 3.49
+        },
+        "calculated_value": 17.45,
+        "reported_value": 17.45,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "line_item_2_total_check",
+        "formula": "quantity * unit_price",
+        "operands": {
+          "quantity": 3.0,
+          "unit_price": 4.49
+        },
+        "calculated_value": 13.47,
+        "reported_value": 13.47,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "line_item_3_total_check",
+        "formula": "quantity * unit_price",
+        "operands": {
+          "quantity": 5.0,
+          "unit_price": 9.35
+        },
+        "calculated_value": 46.75,
+        "reported_value": 46.75,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "line_item_4_total_check",
+        "formula": "quantity * unit_price",
+        "operands": {
+          "quantity": 4.0,
+          "unit_price": 4.49
+        },
+        "calculated_value": 17.96,
+        "reported_value": 17.96,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "line_item_5_total_check",
+        "formula": "quantity * unit_price",
+        "operands": {
+          "quantity": 2.0,
+          "unit_price": 4.89
+        },
+        "calculated_value": 9.78,
+        "reported_value": 9.78,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "line_item_6_total_check",
+        "formula": "quantity * unit_price",
+        "operands": {
+          "quantity": 1.0,
+          "unit_price": 5.5
+        },
+        "calculated_value": 5.5,
+        "reported_value": 5.5,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "line_item_7_total_check",
+        "formula": "quantity * unit_price",
+        "operands": {
+          "quantity": 2.0,
+          "unit_price": 7.68
+        },
+        "calculated_value": 15.36,
+        "reported_value": 15.36,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "line_items_sum_check",
+        "formula": "sum(line_item.amount) \u2248 subtotal",
+        "operands": {
+          "sum_of_line_items": 126.27
+        },
+        "calculated_value": 126.27,
+        "reported_value": 126.27,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      },
+      {
+        "name": "invoice_total_check",
+        "formula": "subtotal + tax_amount - discount",
+        "operands": {
+          "subtotal": 126.27,
+          "tax_amount": 12.63,
+          "discount": 0.0
+        },
+        "calculated_value": 138.9,
+        "reported_value": 138.9,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null,
+        "message": null
+      }
+    ],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T19:20:58.646019+00:00",
+    "processing_time_ms": 1030,
+    "extraction_method": "regex/keyword rule-based extraction over OCR text"
+  }
+}

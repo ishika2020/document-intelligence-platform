@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ document_name }} — Document Intelligence</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1 id="pageTitle">{{ document_name }}</h1>
+      <div class="subtitle" id="pageSubtitle">Loading document result&hellip;</div>
+    </div>
+    <a href="/">&larr; Back to Dashboard</a>
+  </header>
+
+  <main>
+    <div id="content">
+      <div class="empty-state">Loading&hellip;</div>
+    </div>
+  </main>
+
+  <script>
+    window.DOCUMENT_NAME = {{ document_name | tojson }};
+  </script>
+  <script src="/static/js/app.js"></script>
+  <script>
+    DocIntel.initDocumentPage();
+  </script>
+</body>
+</html>

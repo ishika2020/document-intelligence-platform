@@ -1,0 +1,518 @@
+{
+  "document_name": "profit_and_loss_2020.pdf",
+  "document_type": "profit_and_loss",
+  "processing_status": "PASS",
+  "overall_confidence": 0.9,
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "reason": null
+  },
+  "extracted_data": {
+    "statement_title": "Consolidated Profit and Loss Account",
+    "currency": "INR",
+    "currency_unit": null,
+    "current_period_end": "2020-03-31",
+    "comparative_period_end": "2019-03-31",
+    "interest_earned": {
+      "value": 1221892915.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Interest earned 13 1,221,892,915 1,051,607,400",
+        "page_number": 1
+      },
+      "confidence": 0.92
+    },
+    "other_income": {
+      "value": 248789748.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Other income 14 248,789,748 189,470,509",
+        "page_number": 1
+      },
+      "confidence": 0.83
+    },
+    "total_income": {
+      "value": 1470682663.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total 1,470,682,663 1,241,077,909",
+        "page_number": 1
+      },
+      "confidence": 0.88
+    },
+    "interest_expended": {
+      "value": 621374216.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Interest expended 15 621,374,216 537,126,876",
+        "page_number": 1
+      },
+      "confidence": 0.94
+    },
+    "operating_expenses": {
+      "value": 330360555.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Operating expenses 16 330,360,555 276,947,604",
+        "page_number": 1
+      },
+      "confidence": 0.96
+    },
+    "provisions_and_contingencies": {
+      "value": 245985239.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Provisions and contingencies 245,985,239 202,547,300",
+        "page_number": 1
+      },
+      "confidence": 0.82
+    },
+    "total_expenditure": {
+      "value": 4197720010.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total 4,197,720,010 1,016,621,780",
+        "page_number": 1
+      },
+      "confidence": 0.65
+    },
+    "net_profit_before_minority_interest": {
+      "value": 272962653.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Net profit for the year 272,962,653 224,456,129",
+        "page_number": 1
+      },
+      "confidence": 0.94
+    },
+    "minority_interest": {
+      "value": 423147.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Less : Minority interest 423,147 1,181,820",
+        "page_number": 1
+      },
+      "confidence": 0.94
+    },
+    "consolidated_net_profit": {
+      "value": 272539506.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Consolidated profit for the year 272,539,506 223,324,309",
+        "page_number": 1
+      },
+      "confidence": 0.96
+    },
+    "brought_forward_profit": {
+      "value": 528496075.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Balance in the Profit and Loss Account brought forward 528,496,075 430,989,822",
+        "page_number": 1
+      },
+      "confidence": 0.96
+    },
+    "total_available_for_appropriation": {
+      "value": 801035581.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total 801,035,581 654,314,131",
+        "page_number": 1
+      },
+      "confidence": 0.94
+    },
+    "revenue": {
+      "value": 1470682663.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total 1,470,682,663 1,241,077,909",
+        "page_number": 1
+      },
+      "confidence": 0.88
+    },
+    "cost_of_sales": null,
+    "gross_profit": null,
+    "operating_profit": null,
+    "tax": {
+      "value": 902672.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Tax (including cess) on dividend 902,672 433,081",
+        "page_number": 1
+      },
+      "confidence": 0.92
+    },
+    "net_profit": {
+      "value": 272539506.0,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Consolidated profit for the year 272,539,506 223,324,309",
+        "page_number": 1
+      },
+      "confidence": 0.96
+    },
+    "line_items": [
+      {
+        "label": "For the year ended March",
+        "schedule": null,
+        "current_period_value": 31.0,
+        "comparative_period_value": 2020.0,
+        "page_number": 1,
+        "source_text": "For the year ended March 31, 2020"
+      },
+      {
+        "label": "Interest earned",
+        "schedule": "13",
+        "current_period_value": 1221892915.0,
+        "comparative_period_value": 1051607400.0,
+        "page_number": 1,
+        "source_text": "Interest earned 13 1,221,892,915 1,051,607,400"
+      },
+      {
+        "label": "Other income",
+        "schedule": "14",
+        "current_period_value": 248789748.0,
+        "comparative_period_value": 189470509.0,
+        "page_number": 1,
+        "source_text": "Other income 14 248,789,748 189,470,509"
+      },
+      {
+        "label": "Total",
+        "schedule": null,
+        "current_period_value": 1470682663.0,
+        "comparative_period_value": 1241077909.0,
+        "page_number": 1,
+        "source_text": "Total 1,470,682,663 1,241,077,909"
+      },
+      {
+        "label": "Interest expended",
+        "schedule": "15",
+        "current_period_value": 621374216.0,
+        "comparative_period_value": 537126876.0,
+        "page_number": 1,
+        "source_text": "Interest expended 15 621,374,216 537,126,876"
+      },
+      {
+        "label": "Operating expenses",
+        "schedule": "16",
+        "current_period_value": 330360555.0,
+        "comparative_period_value": 276947604.0,
+        "page_number": 1,
+        "source_text": "Operating expenses 16 330,360,555 276,947,604"
+      },
+      {
+        "label": "Provisions and contingencies",
+        "schedule": null,
+        "current_period_value": 245985239.0,
+        "comparative_period_value": 202547300.0,
+        "page_number": 1,
+        "source_text": "Provisions and contingencies 245,985,239 202,547,300"
+      },
+      {
+        "label": "Total",
+        "schedule": null,
+        "current_period_value": 4197720010.0,
+        "comparative_period_value": 1016621780.0,
+        "page_number": 1,
+        "source_text": "Total 4,197,720,010 1,016,621,780"
+      },
+      {
+        "label": "Net profit for the year",
+        "schedule": null,
+        "current_period_value": 272962653.0,
+        "comparative_period_value": 224456129.0,
+        "page_number": 1,
+        "source_text": "Net profit for the year 272,962,653 224,456,129"
+      },
+      {
+        "label": "Less : Minority interest",
+        "schedule": null,
+        "current_period_value": 423147.0,
+        "comparative_period_value": 1181820.0,
+        "page_number": 1,
+        "source_text": "Less : Minority interest 423,147 1,181,820"
+      },
+      {
+        "label": "Consolidated profit for the year",
+        "schedule": null,
+        "current_period_value": 272539506.0,
+        "comparative_period_value": 223324309.0,
+        "page_number": 1,
+        "source_text": "Consolidated profit for the year 272,539,506 223,324,309"
+      },
+      {
+        "label": "Balance in the Profit and Loss Account brought forward",
+        "schedule": null,
+        "current_period_value": 528496075.0,
+        "comparative_period_value": 430989822.0,
+        "page_number": 1,
+        "source_text": "Balance in the Profit and Loss Account brought forward 528,496,075 430,989,822"
+      },
+      {
+        "label": "Total",
+        "schedule": null,
+        "current_period_value": 801035581.0,
+        "comparative_period_value": 654314131.0,
+        "page_number": 1,
+        "source_text": "Total 801,035,581 654,314,131"
+      },
+      {
+        "label": "Transfer to Statutory Reserve",
+        "schedule": null,
+        "current_period_value": 67717167.0,
+        "comparative_period_value": 54997602.0,
+        "page_number": 1,
+        "source_text": "Transfer to Statutory Reserve 67,717,167 54,997,602"
+      },
+      {
+        "label": "Tax (including cess) on dividend",
+        "schedule": null,
+        "current_period_value": 902672.0,
+        "comparative_period_value": 433081.0,
+        "page_number": 1,
+        "source_text": "Tax (including cess) on dividend 902,672 433,081"
+      },
+      {
+        "label": "Dividend (including tax / cess thereon) pertaining to previous year paid during",
+        "schedule": null,
+        "current_period_value": 48933585.0,
+        "comparative_period_value": 40525854.0,
+        "page_number": 1,
+        "source_text": "Dividend (including tax / cess thereon) pertaining to previous year paid during 48,933,585 40,525,854"
+      },
+      {
+        "label": "Interim Dividend (including tax)",
+        "schedule": null,
+        "current_period_value": 16469504.0,
+        "comparative_period_value": null,
+        "page_number": 1,
+        "source_text": "Interim Dividend (including tax) 16,469,504"
+      },
+      {
+        "label": "\u2018Transfer to General Reserve",
+        "schedule": null,
+        "current_period_value": 26257315.0,
+        "comparative_period_value": 21078165.0,
+        "page_number": 1,
+        "source_text": "\u2018Transfer to General Reserve 26,257,315 21,078,165"
+      },
+      {
+        "label": "Transfer to Capital Reserve",
+        "schedule": null,
+        "current_period_value": 11238460.0,
+        "comparative_period_value": 1053354.0,
+        "page_number": 1,
+        "source_text": "Transfer to Capital Reserve 11,238,460 1,053,354"
+      },
+      {
+        "label": "Transfer to / (from) Investment Fluctuation Reserve",
+        "schedule": null,
+        "current_period_value": 11340000.0,
+        "comparative_period_value": 7730000.0,
+        "page_number": 1,
+        "source_text": "Transfer to / (from) Investment Fluctuation Reserve 11,340,000 7,730,000"
+      },
+      {
+        "label": "Balance carried over to Balance Sheet",
+        "schedule": null,
+        "current_period_value": 618176878.0,
+        "comparative_period_value": 528496075.0,
+        "page_number": 1,
+        "source_text": "Balance carried over to Balance Sheet 618,176,878 528,496,075"
+      },
+      {
+        "label": "Total",
+        "schedule": null,
+        "current_period_value": 801035581.0,
+        "comparative_period_value": 654314131.0,
+        "page_number": 1,
+        "source_text": "Total 801,035,581 654,314,131"
+      },
+      {
+        "label": "Basic",
+        "schedule": null,
+        "current_period_value": 41.66,
+        "comparative_period_value": null,
+        "page_number": 1,
+        "source_text": "Basic 41.66"
+      },
+      {
+        "label": "Diluted",
+        "schedule": null,
+        "current_period_value": 41.25,
+        "comparative_period_value": null,
+        "page_number": 1,
+        "source_text": "Diluted 41.25"
+      },
+      {
+        "label": "Membership Number",
+        "schedule": null,
+        "current_period_value": 117812.0,
+        "comparative_period_value": null,
+        "page_number": 1,
+        "source_text": "Membership Number: 117812"
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "total_income_check",
+        "formula": "Interest Earned + Other Income \u2248 Total Income",
+        "operands": {
+          "interest_earned": 1221892915.0,
+          "other_income": 248789748.0
+        },
+        "calculated_value": 1470682663.0,
+        "reported_value": 1470682663.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2020",
+        "message": null
+      },
+      {
+        "name": "total_expenditure_check",
+        "formula": "Interest Expended + Operating Expenses + Provisions & Contingencies \u2248 Total Expenditure",
+        "operands": {
+          "interest_expended": 621374216.0,
+          "operating_expenses": 330360555.0,
+          "provisions_and_contingencies": 245985239.0
+        },
+        "calculated_value": 1197720010.0,
+        "reported_value": 4197720010.0,
+        "variance": -3000000000.0,
+        "status": "FAIL",
+        "period": "March 31, 2020",
+        "message": "Calculated value differs from reported value by -3000000000.00 (tolerance exceeded)."
+      },
+      {
+        "name": "net_profit_before_minority_interest_check",
+        "formula": "Total Income - Total Expenditure \u2248 Consolidated Net Profit before Minority Interest",
+        "operands": {
+          "total_income": 1470682663.0,
+          "total_expenditure": 4197720010.0
+        },
+        "calculated_value": -2727037347.0,
+        "reported_value": 272962653.0,
+        "variance": -3000000000.0,
+        "status": "FAIL",
+        "period": "March 31, 2020",
+        "message": "Calculated value differs from reported value by -3000000000.00 (tolerance exceeded)."
+      },
+      {
+        "name": "consolidated_net_profit_check",
+        "formula": "Profit before Minority Interest - Minority Interest \u2248 Consolidated Net Profit attributable to Group",
+        "operands": {
+          "profit_before_minority_interest": 272962653.0,
+          "minority_interest": 423147.0
+        },
+        "calculated_value": 272539506.0,
+        "reported_value": 272539506.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2020",
+        "message": null
+      },
+      {
+        "name": "total_available_for_appropriation_check",
+        "formula": "Current Profit + Brought Forward Profit \u2248 Total Available for Appropriation",
+        "operands": {
+          "current_profit": 272539506.0,
+          "brought_forward_profit": 528496075.0
+        },
+        "calculated_value": 801035581.0,
+        "reported_value": 801035581.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2020",
+        "message": null
+      },
+      {
+        "name": "total_income_check",
+        "formula": "Interest Earned + Other Income \u2248 Total Income",
+        "operands": {
+          "interest_earned": 1051607400.0,
+          "other_income": 189470509.0
+        },
+        "calculated_value": 1241077909.0,
+        "reported_value": 1241077909.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "31-Mar-19",
+        "message": null
+      },
+      {
+        "name": "total_expenditure_check",
+        "formula": "Interest Expended + Operating Expenses + Provisions & Contingencies \u2248 Total Expenditure",
+        "operands": {
+          "interest_expended": 537126876.0,
+          "operating_expenses": 276947604.0,
+          "provisions_and_contingencies": 202547300.0
+        },
+        "calculated_value": 1016621780.0,
+        "reported_value": 1016621780.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "31-Mar-19",
+        "message": null
+      },
+      {
+        "name": "net_profit_before_minority_interest_check",
+        "formula": "Total Income - Total Expenditure \u2248 Consolidated Net Profit before Minority Interest",
+        "operands": {
+          "total_income": 1241077909.0,
+          "total_expenditure": 1016621780.0
+        },
+        "calculated_value": 224456129.0,
+        "reported_value": 224456129.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "31-Mar-19",
+        "message": null
+      },
+      {
+        "name": "consolidated_net_profit_check",
+        "formula": "Profit before Minority Interest - Minority Interest \u2248 Consolidated Net Profit attributable to Group",
+        "operands": {
+          "profit_before_minority_interest": 224456129.0,
+          "minority_interest": 1181820.0
+        },
+        "calculated_value": 223274309.0,
+        "reported_value": 223324309.0,
+        "variance": -50000.0,
+        "status": "PASS",
+        "period": "31-Mar-19",
+        "message": null
+      },
+      {
+        "name": "total_available_for_appropriation_check",
+        "formula": "Current Profit + Brought Forward Profit \u2248 Total Available for Appropriation",
+        "operands": {
+          "current_profit": 223324309.0,
+          "brought_forward_profit": 430989822.0
+        },
+        "calculated_value": 654314131.0,
+        "reported_value": 654314131.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "31-Mar-19",
+        "message": null
+      }
+    ],
+    "overall_status": "FAIL",
+    "issues": [
+      "Calculated value differs from reported value by -3000000000.00 (tolerance exceeded).",
+      "Calculated value differs from reported value by -3000000000.00 (tolerance exceeded)."
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T19:20:55.633589+00:00",
+    "processing_time_ms": 1297,
+    "extraction_method": "positional label/value table parser over OCR text"
+  }
+}
