@@ -10,11 +10,13 @@ Built for the AI Engineer Internship technical case study (Intelligent Document 
 
 | Item | URL |
 |---|---|
-| Frontend / Dashboard | `<fill in after deployment>` |
-| Backend API (base) | `<fill in after deployment>` |
-| Swagger / OpenAPI docs | `<fill in after deployment>/docs` |
-| Health check | `<fill in after deployment>/api/v1/health` |
-| Public GitHub repository | `<fill in after pushing>` |
+| Frontend / Dashboard | https://document-intelligence-platform-ptqf.onrender.com/ |
+| Backend API (base) | https://document-intelligence-platform-ptqf.onrender.com |
+| Swagger / OpenAPI docs | https://document-intelligence-platform-ptqf.onrender.com/docs |
+| Health check | https://document-intelligence-platform-ptqf.onrender.com/api/v1/health |
+| Public GitHub repository | https://github.com/ishika2020/document-intelligence-platform |
+
+> Deployed on Render's free tier — the first request after 15 minutes of inactivity takes ~30-50s (cold start) while the instance spins back up.
 
 > The frontend and backend are the **same deployed service** (see Architecture below), so there is one URL for both.
 

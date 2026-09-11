@@ -18,6 +18,9 @@ ENV PYTHONUNBUFFERED=1 \
     DATABASE_URL=sqlite:////app/backend/data/document_intelligence.db \
     UPLOAD_DIR=/app/backend/data/uploads \
     OMP_THREAD_LIMIT=1
+    # OMP_THREAD_LIMIT=1 caps Tesseract's internal OpenMP threading, which
+    # otherwise spikes memory well past 512MB on a single OCR request and
+    # gets the process OOM-killed on memory-constrained free-tier hosts.
 
 WORKDIR /app/backend
 EXPOSE 8000
