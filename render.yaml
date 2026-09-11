@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: document-intelligence-platform
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: LOG_LEVEL
+        value: INFO
+      - key: VALIDATION_TOLERANCE_ABS
+        value: "1.0"
+      - key: VALIDATION_TOLERANCE_PCT
+        value: "0.01"
+# Note: Render's free instance type does not support persistent disks, so the
+# SQLite file resets on redeploy/restart (not on every request). Attach a
+# disk (requires a paid instance type) or point DATABASE_URL at a managed
+# Postgres instance for data that must survive redeploys.
