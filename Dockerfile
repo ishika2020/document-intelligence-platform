@@ -16,7 +16,8 @@ COPY frontend/ frontend/
 
 ENV PYTHONUNBUFFERED=1 \
     DATABASE_URL=sqlite:////app/backend/data/document_intelligence.db \
-    UPLOAD_DIR=/app/backend/data/uploads
+    UPLOAD_DIR=/app/backend/data/uploads \
+    OMP_THREAD_LIMIT=1
 
 WORKDIR /app/backend
 EXPOSE 8000

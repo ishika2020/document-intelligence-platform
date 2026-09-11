@@ -27,7 +27,20 @@ _settings = get_settings()
 if _settings.tesseract_cmd:
     pytesseract.pytesseract.tesseract_cmd = _settings.tesseract_cmd
 
-_OCR_RENDER_ZOOM = 2.0  # render scanned pages at 2x for better OCR accuracy
+_OCR_RENDER_ZOOM = 1.6  # render scanned pages at this zoom for OCR accuracy
+_MAX_OCR_DIMENSION = 3000  # soft safety net against pathologically huge uploads; normal scans are well under this
+
+
+def _cap_image_size(image: Image.Image) -> Image.Image:
+    """Downscale an image before OCR if it's larger than needed -- OCR accuracy
+    plateaus well below this size, and Tesseract's memory use scales with pixel
+    count, which matters on memory-constrained deployment tiers (e.g. 512MB)."""
+    longer_side = max(image.size)
+    if longer_side <= _MAX_OCR_DIMENSION:
+        return image
+    scale = _MAX_OCR_DIMENSION / longer_side
+    new_size = (max(1, int(image.width * scale)), max(1, int(image.height * scale)))
+    return image.resize(new_size, Image.LANCZOS)
 
 
 @dataclass
@@ -134,6 +147,7 @@ def _extract_native_pdf_page(page: "fitz.Page") -> PageContent | None:
 
 
 def _ocr_image(image: Image.Image, page_number: int) -> PageContent:
+    image = _cap_image_size(image)
     try:
         data = pytesseract.image_to_data(image, output_type=pytesseract.Output.DICT)
     except pytesseract.TesseractNotFoundError as exc:
